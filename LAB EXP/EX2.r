@@ -21,7 +21,7 @@ rm(x)      #   --- X REMOVED
 x
 
 ## 2.Vectors
-# Creating Vectorsors
+# Creating Vectors
 
 v1 <- c(10 ,20 ,30 ,40, 50)
 v2 <- 1:10
@@ -66,7 +66,7 @@ rev(v1)
 
 v1 > 20
 v1 [v1 > 20]
-v1 [v1 %% 2 == 0 ]
+
 
 
 # Marks
@@ -85,3 +85,44 @@ mean(marks)
 max(marks)
 min(marks)
 sort(marks)
+
+#3 List
+## Creating List
+
+students <- c(list(Name="Leo",Age = 20,CGPA = 8.9,Passed =TRUE)
+
+#Accessing List Elements
+
+students$Name
+students$Age
+students[[3]]
+students[1]
+
+# Modifying List
+
+student$Age <- 21
+student$Department <- "CSE"
+student
+
+
+# List Example
+student <- list (Name = "LEO MESSI",Age = 20 ,CGPA = 8.9 ,Passed = TRUE)
+print(student)
+
+
+
+#Operations
+student$Name
+student$Age
+student[[3]]
+student$Passed
+
+
+
+
+
+
+
+
+
+
