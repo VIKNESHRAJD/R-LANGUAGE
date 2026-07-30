@@ -1,4 +1,14 @@
 ```mermaid
+flowchart TD
+    A[Task Completion Times] --> B[Calculate Mean]
+    B --> C[Find Difference from Mean]
+    C --> D[Square Each Difference]
+    D --> E[Calculate Variance]
+    E --> F[Take Square Root]
+    F --> G[Standard Deviation]
+```
+
+```mermaid
 graph LR
     A[Raw Data] --> B[Mean]
     B --> C[Deviation from Mean]
@@ -6,6 +16,15 @@ graph LR
     D --> E[Variance]
     E --> F[Square Root]
     F --> G[Standard Deviation]
+```
+
+```mermaid
+flowchart LR
+    A["Data: 10,12,15,13,10"] --> B["Mean = 12"]
+    B --> C["Differences: -2,0,3,1,-2"]
+    C --> D["Squared: 4,0,9,1,4"]
+    D --> E["Variance = 18/5 = 3.6"]
+    E --> F["SD = √3.6 = 1.9"]
 ```
 
 # Mean, Variance, and Standard Deviation
