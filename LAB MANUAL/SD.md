@@ -1,4 +1,14 @@
-# 📊 Mean, Variance, and Standard Deviation
+```mermaid
+graph LR
+    A[Raw Data] --> B[Mean]
+    B --> C[Deviation from Mean]
+    C --> D[Squared Deviations]
+    D --> E[Variance]
+    E --> F[Square Root]
+    F --> G[Standard Deviation]
+```
+
+# Mean, Variance, and Standard Deviation
 
 This document explains three important statistical measures used to analyze **task completion times**.
 
