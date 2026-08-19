@@ -1,2 +1,1 @@
-# R-LANGUAGE Rstuio -s
-# VSB
+# R-LANGUAGE R
